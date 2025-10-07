@@ -1,7 +1,7 @@
 import sys 
 import logging
 import os
-from logger import logger
+from src.logger import logger
 
 # Ensure the logs folder exists
 os.makedirs("logs", exist_ok=True)
